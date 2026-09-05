@@ -12,6 +12,6 @@ dataBase = mysql.connector.connect(
 cursorObject = dataBase.cursor()
 
 
-curorObject.execute("CREATE DATABASE gooner")
+cursorObject.execute("CREATE DATABASE gooner")
 print("All one !")
 
